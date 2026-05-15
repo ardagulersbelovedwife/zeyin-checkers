@@ -29,7 +29,7 @@ Zeyin Checkers is a competitive, high-quality checkers web application built wit
 
 1. **Clone the repository** (if applicable):
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/ardagulersbelovedwife/zeyin-checkers.git
    cd zeyin-checkers
    ```
 
