@@ -150,7 +150,7 @@ export default function Home() {
           </p>
           <div className="flex items-center gap-4">
             <span className="text-sm font-medium">Difficulty:</span>
-            <Select value={difficulty} onValueChange={setDifficulty} disabled={isThinking || gameState.turn === 2 || gameState.turn > 1}>
+            <Select value={difficulty} onValueChange={(val) => { if (val) setDifficulty(val); }} disabled={isThinking || gameState.turn === 2 || gameState.turn > 1}>
               <SelectTrigger className="w-[180px]">
                 <SelectValue placeholder="Difficulty" />
               </SelectTrigger>
