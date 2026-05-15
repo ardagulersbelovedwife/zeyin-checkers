@@ -27,12 +27,15 @@ export function Login() {
       const { error } = await supabase.auth.signUp({
         email,
         password,
+        options: {
+          emailRedirectTo: `${window.location.origin}`,
+        },
       });
       
       if (error) {
         setError(error.message);
       } else {
-        setSuccessMsg("Check your email to confirm your account!");
+        setSuccessMsg("Account created! You can sign in now.");
       }
     } else {
       const { error } = await supabase.auth.signInWithPassword({
