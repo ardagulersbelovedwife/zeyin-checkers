@@ -1,6 +1,20 @@
 # Zeyin Checkers
 
-Zeyin Checkers is a competitive, high-quality checkers web application built with a focus on professional, distraction-free gameplay. It features a strict ruleset (mandatory captures, king promotion), real-time multiplayer, and a built-in Minimax AI engine for challenging single-player matches.
+**🌐 Live Demo: [zeyin-checkers.vercel.app](https://zeyin-checkers.vercel.app/)**
+
+---
+
+## 📖 About the Project
+
+**Zeyin Checkers** is a competitive online checkers platform built for players who want a serious, distraction-free game experience.
+
+**What it is:** A full-stack web application that lets you play checkers against a Minimax AI engine at three difficulty levels, with persistent match history and user authentication — all in a clean, professional dark interface.
+
+**Who it's for:** Casual players who want a challenge beyond "toy" checkers games, and developers looking for a reference implementation of a game platform with AI, auth, and a real database backend.
+
+**Why it's valuable:** Most free online checkers games are cluttered with ads, use weak AI, and don't save your progress. Zeyin Checkers enforces the real ruleset (mandatory captures, king promotion), tracks your win/loss history across sessions, and gives you a focused, premium experience — completely free.
+
+---
 
 ## ✨ Features
 
@@ -16,7 +30,7 @@ Zeyin Checkers is a competitive, high-quality checkers web application built wit
 - **Language**: TypeScript
 - **Styling**: [Tailwind CSS v4](https://tailwindcss.com/) & [shadcn/ui](https://ui.shadcn.com/)
 - **Backend & Database**: [Supabase](https://supabase.com/) (PostgreSQL, Realtime, Auth)
-- **Deployment**: Vercel
+- **Deployment**: [Vercel](https://zeyin-checkers.vercel.app/)
 
 ## 🚀 Getting Started
 
